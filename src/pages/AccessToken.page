@@ -1,0 +1,7 @@
+<apex:page controller="AuthController">
+<apex:form >
+<apex:commandButton action="{!accessToken}" value="AccessToken" id="accessTokenButton"/>
+<p/>
+<apex:outputText rendered="{!message!=null}" value="Problem: {!message}"/>
+</apex:form>
+</apex:page>
